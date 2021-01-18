@@ -1,0 +1,214 @@
+\documentclass[aspectratio=169]{beamer}
+
+\usepackage{hyperref}
+
+\usetheme{Madrid}
+\setbeamertemplate{navigation symbols}{}
+\setbeamertemplate{footline}{}
+%\setbeamercovered{transparent}
+
+\newcommand{\email}[1]{\texttt{#1}}
+
+
+\title{A Crash Course in Modern C++}
+
+\author[Erik Saule]{{\bf Erik Saule}\\\email{esaule@uncc.edu}}
+
+\date{}
+
+\begin{document}
+
+\maketitle
+
+\section{Generalities}
+
+\begin{frame}
+  \begin{block}{Assumption}
+    You already know to program in something, maybe Java, maybe Python.
+  \end{block}
+
+  \begin{block}{Purpose}
+    not necessarilly make you an expert C++ programmer.
+
+    Just catch you on common modern C++
+
+    In particular in C++ after 2011 became much different, and modern
+    C++ code can pretty much read like python
+  \end{block}
+\end{frame}
+
+\begin{frame}
+  I'll be using g++
+
+  on a linux system
+
+  
+\end{frame}
+
+\section{Basics}
+
+\begin{frame}
+  basic types
+\end{frame}
+
+\begin{frame}
+  if
+
+  do while
+
+  while
+
+  for
+
+  ranged for   
+\end{frame}
+
+\begin{frame}
+  pointers and references
+
+  const
+\end{frame}
+
+\begin{frame}
+  type limits
+
+  operator behavior divide and modulo
+
+  typedef
+
+  the magical auto
+
+  auto behavior with references
+\end{frame}
+
+\begin{frame}
+  struct and class
+
+  construction destruction
+\end{frame}
+
+\begin{frame}
+  inheritance, polymorphism
+
+  virtual destructors
+\end{frame}
+
+\begin{frame}
+  C++ style interfaces
+
+\end{frame}
+
+\begin{frame}
+  stack and heap
+\end{frame}
+
+\begin{frame}
+  returning things from the heap
+
+  dynamic memory management
+\end{frame}
+
+\begin{frame}
+  life cycle of objects and scopes
+
+  returning objects from functions, copy constructors and move constructors
+\end{frame}
+
+\begin{frame}
+  RAII  
+\end{frame}
+
+\section{C style things}
+
+\begin{frame}
+  arrays
+
+  std::vector
+
+  void* + size
+
+  serializing c++ objects
+\end{frame}
+
+\section{Compilation Model}
+
+\begin{frame}
+  three stage compilation
+
+  precompilation
+
+  compilation
+
+  linking  
+\end{frame}
+
+\begin{frame}
+  modules in the future
+\end{frame}
+
+
+\section{compiler level abstraction}
+
+\begin{frame}
+  templates
+\end{frame}
+
+\begin{frame}
+  compile time duck typing
+\end{frame}
+
+\begin{frame}
+  Frustrating strange error message with templates
+\end{frame}
+
+\begin{frame}
+  concepts in the future
+\end{frame}
+
+
+\section{Functions and Functional Programming}
+
+\begin{frame}
+  functions
+\end{frame}
+
+\begin{frame}
+  functors
+\end{frame}
+
+\begin{frame}
+  lambdas
+\end{frame}
+
+\begin{frame}
+  bind and tie
+\end{frame}
+
+\section{Debugging Memory Issues}
+
+
+\begin{frame}
+  valgrind
+\end{frame}
+
+\section{Further}
+
+\begin{frame}
+  \frametitle{External}
+
+  \tiny
+
+  cppreference. 
+
+  Kate Gregory's ``Stop Teaching C'' from CppCon 2015.  It's not
+  actually trolley.
+
+  Bjorne Stroustrup's A Tour of C++. Very good for catching up.
+
+  In general, CppCon's keynotes are nice.
+
+\end{frame}
+
+
+
+\end{document}

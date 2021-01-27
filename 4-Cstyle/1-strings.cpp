@@ -13,7 +13,7 @@ int main (int argc, char** argv) {
     std::cout<<"yes it is\n";
 
   std::string s(argv[0]);
-  if (s.compare("./1-strings") == 0)
+  if (s == "./1-strings" == 0)
     std::cout<<"yes it is\n";
 
 

@@ -10,11 +10,20 @@ int main (int argc, char** argv) {
   std::cout<<"\n";
 
   if (strcmp(argv[0], "./1-strings") == 0)
-    std::cout<<"yes it is\n";
+    std::cout<<"yes, it is\n";
+  else    
+    std::cout<<"no, it is not\n";
 
   std::string s(argv[0]);
-  if (s == "./1-strings" == 0)
-    std::cout<<"yes it is\n";
+  if (s == "./1-strings")
+    std::cout<<"yes, it is\n";
+  else    
+    std::cout<<"no, it is not\n";
+
+  if (argv[0] == "./1-strings")
+    std::cout<<"yes, it is\n";
+  else    
+    std::cout<<"no, it is not\n";
 
 
   //appending to argv[0] is impossible, there is no memory available after the \0.

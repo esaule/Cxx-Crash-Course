@@ -59,10 +59,10 @@ int main () {
     lbuffer += sizeof(si);
     memcpy(lbuffer, &(s.v[0]), s.v.size()*sizeof(s.v[0]));    
   }
-  free(buffer);
 
   write(2, buffer, totallength);
   
+  free(buffer);
   
   return 0;
 }
